@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "TT Lakes";
+    src: url(fonts/TTLakes-Medium.woff2);
+}
+
+html,
+body {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+max-width: 320px;
+background-color: #fff;
+font-family: "TT Lakes";
+padding-left: 10px;
+padding-right: 10px;
+height: 100%;
+}
+
+html {
+    -webkit-box-shadow: 0 0 25px 1px #888;
+            box-shadow: 0 0 25px 1px #888;
+    
+}
+
+.header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 320px;
+    width: 100%;
+    padding: 10px auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    row-gap: 15px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+}
+
+.menu__card {
+    background-color: #fff;
+    border: #fff;
+    font-size: 16px;
+    font-family: "TT Lakes";
+    line-height: 24px;
+    letter-spacing: -.2px;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.menu__card:hover {
+    color: #7E7E82;
+}
+
+.menu__card:hover::before {
+    content: "";
+    width: 4px;
+    height: 25px;
+    position: absolute;
+    margin-left: -34px;
+    background: url(/img/highlight.svg);
+}
+
+.footer__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 320;
+    margin: 10px auto;
+    -webkit-column-gap: 25px;
+       -moz-column-gap: 25px;
+            column-gap: 25px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+}
+
+.footer__tel {
+    font-weight: 900;
+    margin-top: 5px;
+}
+.footer__mail {
+    margin-bottom: 10px;
+}
+
+.footer__contacts {
+    margin-bottom: 20px;
+}
+
+.footer__lang {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
+}
+
+.lang__ru:hover {
+    color: #888;
+}
+
+.lang__en:hover {
+    color: #888;
+}
+
+.lang__ch:hover {
+    color: #888;
+}
