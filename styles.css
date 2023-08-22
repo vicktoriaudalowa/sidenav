@@ -87,7 +87,7 @@ html {
     left: 0;
     width: 4px;
     height: 25px;
-    background: url(/img/highlight.svg);
+    background: url(img/highlight.svg);
 }
 
 .footer__nav {
